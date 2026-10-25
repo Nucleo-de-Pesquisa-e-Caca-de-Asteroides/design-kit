@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
+@import './theme.css';
+
+.npca-button, .npca-card, .npca-badge, .npca-field, .npca-modal, .npca-table, .npca-empty { box-sizing: border-box; font-family: 'Space Mono', monospace; color: var(--npca-ink); }
+.npca-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 16px; border: var(--border); border-radius: 0; background: var(--npca-red); color: white; box-shadow: var(--shadow); font-size: 13px; text-decoration: none; cursor: pointer; transition: transform .15s, box-shadow .15s; }
+.npca-button--secondary { background: var(--npca-yellow); color: var(--npca-ink); }
+.npca-button--outline { background: var(--npca-paper); color: var(--npca-ink); }
+.npca-button:not(:disabled):hover { transform: translate(2px, 2px); box-shadow: 2px 2px var(--npca-ink); }
+.npca-button:disabled { opacity: .6; cursor: not-allowed; }
+.npca-card { padding: 24px; background: var(--npca-paper); border: var(--border); box-shadow: var(--shadow); }
+.npca-badge { display: inline-flex; padding: 4px 8px; border: 1px solid var(--npca-ink); font-size: 12px; background: var(--npca-paper); }
+.npca-badge--warning { background: var(--npca-yellow); }
+.npca-badge--success { background: #d9efda; }
+.npca-badge--danger { background: var(--npca-red); color: white; }
+.npca-field { display: flex; flex-direction: column; gap: 8px; font-size: 14px; }
+.npca-field label { font-weight: 700; }
+.npca-field :is(input, select, textarea) { box-sizing: border-box; width: 100%; min-height: 44px; padding: 10px 12px; border: var(--border); border-radius: 0; background: var(--npca-paper); color: var(--npca-ink); }
+.npca-field textarea { min-height: 120px; resize: vertical; }
+.npca-field [aria-invalid='true'] { border-color: var(--npca-red); }
+.npca-field small { color: var(--npca-muted); line-height: 1.6; }
+.npca-field small[role='alert'] { color: var(--npca-red); }
+.npca-modal { width: min(640px, calc(100% - 32px)); max-height: calc(100dvh - 48px); margin: auto; padding: 24px; overflow: auto; border: var(--border); background: var(--npca-paper); box-shadow: var(--shadow); }
+.npca-modal::backdrop { background: #10101099; }
+.npca-modal-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
+.npca-modal h2, .npca-empty h2 { font-family: 'Playfair Display', serif; color: var(--npca-red); }
+.npca-table-scroll { max-width: 100%; overflow-x: auto; }
+.npca-table { width: 100%; border-collapse: collapse; text-align: left; font-size: 13px; background: var(--npca-paper); }
+.npca-table caption { text-align: left; font-weight: 700; padding: 12px 0; }
+.npca-table :is(th, td) { padding: 14px 16px; border: 1px solid var(--npca-ink); }
+.npca-table th { background: var(--npca-yellow); }
+.npca-table tbody tr:hover { background: #f6e36d40; }
+.npca-empty { padding: 32px 24px; border: var(--border); text-align: center; line-height: 1.7; }
+@media (prefers-reduced-motion: reduce) { .npca-button { transition: none; } }
