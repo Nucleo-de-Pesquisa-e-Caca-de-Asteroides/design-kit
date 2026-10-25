@@ -1,0 +1,56 @@
+{
+  "name": "@npca/design-kit",
+  "version": "0.1.0",
+  "description": "Componentes e identidade visual dos sites e sistemas NPCA",
+  "type": "module",
+  "license": "UNLICENSED",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./website": "./dist/website/index.js",
+    "./sara": "./dist/sara/index.js",
+    "./sig": "./dist/sig/index.js",
+    "./firebase": "./dist/firebase.js",
+    "./organization": "./dist/organization.js",
+    "./styles.css": "./dist/styles.css",
+    "./theme.css": "./dist/theme.css",
+    "./website.css": "./dist/website.css",
+    "./sara.css": "./dist/sara.css",
+    "./sig.css": "./dist/sig.css",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "prepack": "npm run build"
+  },
+  "peerDependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "firebase": ">=12 <13",
+    "next": ">=15 <17",
+    "react": ">=19 <20",
+    "react-dom": ">=19 <20",
+    "react-hot-toast": "^2.6.0"
+  },
+  "peerDependenciesMeta": {
+    "firebase": {
+      "optional": true
+    },
+    "react-hot-toast": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/plugin-transform-react-jsx": "^7.27.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}

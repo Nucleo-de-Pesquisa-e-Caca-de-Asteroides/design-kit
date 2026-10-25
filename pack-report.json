@@ -1,0 +1,141 @@
+{
+  "@npca/design-kit": {
+    "id": "@npca/design-kit@0.1.0",
+    "name": "@npca/design-kit",
+    "version": "0.1.0",
+    "size": 30949,
+    "unpackedSize": 168030,
+    "shasum": "eae1e30f7b0ccccfdf791088e59b0d9d7d59a259",
+    "integrity": "sha512-dYWXgEJp4SxfmTurcedIXtxO6zWsFEPUtcrZhE+c5LEYucWTDMQS+DjG0YC/z0zPDnqrs8CLTkK12//CKEzZhQ==",
+    "filename": "npca-design-kit-0.1.0.tgz",
+    "files": [
+      {
+        "path": "README.md",
+        "size": 5109,
+        "mode": 420
+      },
+      {
+        "path": "dist/firebase.js",
+        "size": 592,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.js",
+        "size": 88,
+        "mode": 420
+      },
+      {
+        "path": "dist/organization.js",
+        "size": 2222,
+        "mode": 420
+      },
+      {
+        "path": "dist/primitives.js",
+        "size": 3275,
+        "mode": 420
+      },
+      {
+        "path": "dist/sara.css",
+        "size": 36696,
+        "mode": 420
+      },
+      {
+        "path": "dist/sara/Footer.js",
+        "size": 917,
+        "mode": 420
+      },
+      {
+        "path": "dist/sara/index.js",
+        "size": 98,
+        "mode": 420
+      },
+      {
+        "path": "dist/sara/Navbar.js",
+        "size": 12043,
+        "mode": 420
+      },
+      {
+        "path": "dist/sig.css",
+        "size": 47670,
+        "mode": 420
+      },
+      {
+        "path": "dist/sig/AuthGuard.js",
+        "size": 985,
+        "mode": 420
+      },
+      {
+        "path": "dist/sig/Footer.js",
+        "size": 474,
+        "mode": 420
+      },
+      {
+        "path": "dist/sig/index.js",
+        "size": 265,
+        "mode": 420
+      },
+      {
+        "path": "dist/sig/MemberModal.js",
+        "size": 10373,
+        "mode": 420
+      },
+      {
+        "path": "dist/sig/Navbar.js",
+        "size": 2033,
+        "mode": 420
+      },
+      {
+        "path": "dist/sig/OrgChart.js",
+        "size": 2102,
+        "mode": 420
+      },
+      {
+        "path": "dist/styles.css",
+        "size": 3134,
+        "mode": 420
+      },
+      {
+        "path": "dist/theme.css",
+        "size": 4379,
+        "mode": 420
+      },
+      {
+        "path": "dist/website.css",
+        "size": 27371,
+        "mode": 420
+      },
+      {
+        "path": "dist/website/Button.js",
+        "size": 279,
+        "mode": 420
+      },
+      {
+        "path": "dist/website/Editorial.js",
+        "size": 2311,
+        "mode": 420
+      },
+      {
+        "path": "dist/website/Footer.js",
+        "size": 2235,
+        "mode": 420
+      },
+      {
+        "path": "dist/website/Header.js",
+        "size": 1703,
+        "mode": 420
+      },
+      {
+        "path": "dist/website/index.js",
+        "size": 258,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 1418,
+        "mode": 420
+      }
+    ],
+    "entryCount": 25,
+    "bundled": []
+  }
+}
